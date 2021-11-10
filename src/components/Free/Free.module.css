@@ -49,9 +49,9 @@
 
 .firstBtn{
     position: absolute;
-    width: 150px;
+    width: 30%;
     height: 50px;
-    right: 100px;
+    right: 18%;
     border-radius: 30px;
     outline: none;
     border: none;
@@ -80,7 +80,7 @@
 
 .secondBtn{
     position: absolute;
-    width: 150px;
+    width: 30%;
     height: 50px;
     border-radius: 30px;
     text-decoration: none;
@@ -94,7 +94,7 @@
     border: none;
     font-size: 20px;
     z-index: 3;
-    left: 100px;
+    left: 18%;
     pointer-events: none;
     opacity: 0;
     top: 145px;
@@ -108,4 +108,22 @@
     transition-delay: 0s;
     pointer-events: all;
     top: 125px;
+}
+
+@media screen and (max-width: 950px){
+    
+    .mine_child{
+        width: 80%;
+    }
+
+    .mine{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 750px){
+    
+    .mine_child{
+        width: 90%;
+    }
 }

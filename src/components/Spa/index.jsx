@@ -6,7 +6,7 @@ const Spa = () => {
         <section className={cls.mine}>
             <div className={cls.mine_child}>
                 <img src="/img/spa.png" alt="span" />
-                <Link to='/span/info' className={cls.firstBtn}>read</Link>
+                <Link to='/work/army' className={cls.firstBtn}>read</Link>
                 <a target='_blank' href='https://army-2021.netlify.app' className={cls.secondBtn}>view</a>
             </div>
         </section>

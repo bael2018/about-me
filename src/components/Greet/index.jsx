@@ -1,28 +1,15 @@
-import { useSelector , useDispatch } from 'react-redux'
-import { rootAction } from '../../redux/actions'
 import cls from './Greet.module.css'
 import { AiFillGithub } from 'react-icons/ai' 
 
 const Greet = () => {
-    const lang = useSelector(state => state.langReducer.lang)
-    const { langAction } = rootAction
-    const dispatch = useDispatch()
 
     return (
         <section className={cls.greet}>
-            <div className={cls.greet_language}>
-                <span 
-                    onClick={() => dispatch(langAction())}
-                >
-                    { lang ? 'РУС' : 'EN' }
-                </span>
-            </div>
-
             <div className={cls.greet_content}>
                 <h4>Hi there !</h4>
                 <h3>I Am Bayel</h3>
                 <div className={cls.greet_content_title}>
-                    I Am 
+                    <span className={cls.disappear}>I Am </span>
                     <h2>
                         <span>Front-End</span>
                         <span>Web</span>

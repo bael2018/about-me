@@ -127,3 +127,23 @@
         width: 90%;
     }
 }
+
+@media screen and (max-width: 700px){
+    
+    .mine_child{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    
+    .secondBtn{
+        width: 40%;
+        left: 7%;
+    }
+
+    .firstBtn{
+        width: 40%;
+        right: 7%;
+    }
+}

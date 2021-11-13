@@ -3,22 +3,22 @@ import { Link } from 'react-router-dom'
 
 const initialState = [
     {
-        img: '/img/news.png',
+        img: '/img/news-min.png',
         href: 'https://my-news-2021.netlify.app/',
         route: 'news'
     },
     {
-        img: '/img/marvel.png',
+        img: '/img/marvel-min.png',
         href: 'https://marvel-2020.netlify.app/',
         route: 'marvel'
     },
     {
-        img: '/img/market.png',
+        img: '/img/market-min.png',
         href: 'https://clothe-market.netlify.app/',
         route: 'market'
     },
     {
-        img: '/img/sintact.png',
+        img: '/img/sintact-min.png',
         href: 'https://building-company.netlify.app/',
         route: 'sintac'
     }

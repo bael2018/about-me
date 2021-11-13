@@ -4,11 +4,11 @@ export const moreInfo = [
 
     {
         title: 'Army',
-        content: 'This is a SPA project with little functionality. I made this project using Figma layout. It was a Freelance project)',
+        content: 'This is a SPA project with little functionality. I made this project using Figma)',
         utils: ['React' , 'Redux' , 'Javascipt'],
         link: 'https://army-2021.netlify.app',
         route: 'army',
-        img: '/img/spa.png',
+        img: '/img/spa-min.png',
         details: [
             'Validation'
         ],
@@ -18,11 +18,11 @@ export const moreInfo = [
 
     {
         title: 'Army',
-        content: 'This is a Landing project. I made this project using Figma layout. It was a Freelance project)',
+        content: 'This is a Landing project. I made this project using Figma)',
         utils: ['React' , 'Redux' , 'Javascipt' , 'SCSS'],
         link: 'https://army-template.netlify.app',
         route: 'army-landing',
-        img: '/img/land.png',
+        img: '/img/land-min.png',
         details: [
             'Validation',
             'Form'
@@ -34,7 +34,7 @@ export const moreInfo = [
         utils: ['HTML' , 'CSS' , 'Javascipt' , 'AOS.JS'],
         link: 'https://just-a-verstka.netlify.app/',
         route: 'pinko',
-        img: '/img/beaty.png',
+        img: '/img/beaty-min.png',
         details: [
             'Validation',
             'Form'
@@ -49,7 +49,7 @@ export const moreInfo = [
         utils: ['React' , 'Redux' , 'Javascipt' , 'Firebase'],
         link: 'https://my-news-2021.netlify.app/',
         route: 'news',
-        img: '/img/news.png',
+        img: '/img/news-min.png',
         details: [
             'Validation',
             'Search',
@@ -64,7 +64,7 @@ export const moreInfo = [
         utils: ['HTML' , 'CSS' , 'Javascipt' , 'REST API'],
         link: 'https://marvel-2020.netlify.app/',
         route: 'marvel',
-        img: '/img/marvel.png',
+        img: '/img/marvel-min.png',
         details: [
             'Search',
             'Pagination'
@@ -76,7 +76,7 @@ export const moreInfo = [
         utils: ['React' , 'Swiper.js' , 'Javascipt' , 'Firebase'],
         link: 'https://clothe-market.netlify.app/',
         route: 'market',
-        img: '/img/market.png',
+        img: '/img/market-min.png',
         details: [
             'Search',
             'Filter',
@@ -90,7 +90,7 @@ export const moreInfo = [
         utils: ['HTML' , 'CSS' , 'AOS.JS' , 'Boostrap'],
         link: 'https://building-company.netlify.app/',
         route: 'sintac',
-        img: '/img/sintact.png',
+        img: '/img/sintact-min.png',
         details: [
             'Swiper',
             'Map'
@@ -105,7 +105,7 @@ export const moreInfo = [
         utils: ['HTML' , 'CSS' , 'Swiper.js' , 'Javascipt'],
         link: 'https://theatre-2021.netlify.app',
         route: 'theatre',
-        img: '/img/teatre.png',
+        img: '/img/teatre-min.png',
         details: [
             'Swiper',
             'Map'

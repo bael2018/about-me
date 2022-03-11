@@ -16,7 +16,7 @@ const Contacts = () => {
                 <div>
                     <a rel='noreferrer' target={'_self'} href="tel:0700121212">
                         <BsTelephoneInbound/>
-                        +996700121212
+                        +996708147170
                     </a>
                     <a rel='noreferrer' target={'_self'} href="mailto:osh.kg1819@gmail.com">
                         <AiOutlineMail/>

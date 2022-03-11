@@ -1,0 +1,185 @@
+@import '../variables.scss';
+
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    transition: .3s;
+
+    &_burger{
+        right: 0% !important;
+    }
+
+    @media screen and(max-width:800px){
+        width: 100%;
+        right: -100%;
+        height: 100vh;
+        background: black;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+            width: 60%;
+
+            span{
+                border-top: 1px solid white;
+                width: 100% !important;
+                height: 70px !important;
+
+                a:nth-child(2){
+                    display: none;
+                }
+
+                a:nth-child(1){
+                    position: static !important;
+                }
+            }
+        }
+
+        &_locales{
+            position: absolute;
+            width: 60px !important;
+            top: 0;
+            right: 43% !important;
+            display: flex !important;
+            justify-content: center !important;
+            flex-direction: row !important;
+        }
+    }
+
+    @media screen and(max-width: 500px){
+        div{
+            margin-top: 70px;
+            width: 80%;
+        }
+
+        &_locales{
+            right: 42% !important;
+            top: -20px;
+        }
+    }
+
+    @media screen and(max-width: 400px){
+        &_locales{
+            right: 40% !important;
+        }
+    }
+
+    &_locales{
+        right: 30px;
+        color: white;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        position: absolute;
+
+        svg{
+            margin-left: 6px;
+            color: $app-color;
+        }
+    }
+
+    @media screen and(min-width:800px){
+        &_active{
+            background: #000000;
+            height: 60px;
+        }
+    }
+
+    .engWrapper{
+        span:nth-child(1){
+            width: 60px;
+        }
+
+        span:nth-child(2),
+        span:nth-child(3),
+        span:nth-child(4){
+            width: 65px;
+        }
+    }
+
+    .ruWrapper{
+        span:nth-child(1){
+            width: 80px;
+        }
+
+        span:nth-child(2){
+            width: 85px;
+        }
+
+        span:nth-child(3),
+        span:nth-child(4){
+            width: 75px;
+        }
+    }
+
+    div{
+        display: flex;
+
+        span:nth-child(5){
+            width: 90px;
+        }
+
+        span{
+            height: 25px;
+            text-align: center;
+            margin: 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+
+            a{
+                text-decoration: none;
+                font-weight: bold;
+                color: rgb(255, 255, 255);
+                transition: .3s;
+            }
+
+            a:nth-child(1){
+                position: absolute;
+                top: 1px;
+            }
+
+            a:nth-child(2){
+                position: absolute;
+                top: 22px;
+            }
+
+            &:hover a:nth-child(2){
+                top: 1px;
+            }
+
+            &:hover a:nth-child(1){
+                top: -22px;
+            }
+        }
+
+        .navbar_link{
+            a:nth-child(2){
+                top: 1px;
+                color: $app-color;
+            }
+
+            a:nth-child(1){
+                top: -22px;
+            }
+
+            
+            @media screen and(max-width:800px){
+                a:nth-child(1){
+                    color: $app-color !important;
+                }
+    
+            }
+        }
+    }
+}

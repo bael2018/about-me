@@ -1,0 +1,130 @@
+@import '../variables.scss';
+
+.about{
+    margin: 50px 0;
+
+    &_wrapper{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        @media screen and(max-width:1050px){
+            justify-content: center;
+
+            &_picture{
+                width: 50% !important;
+            }
+
+            &_content{
+                width: 100% !important;
+                margin-top: 30px;
+            }
+        }
+
+        @media screen and(max-width:800px){
+            &_picture{
+                height: 360px !important;
+            }
+        }
+
+        @media screen and(max-width:650px){
+            &_picture{
+                width: 60% !important;
+            }
+        }
+
+        @media screen and(max-width:550px){
+            &_picture{
+                width: 70% !important;
+            }
+        }
+
+        @media screen and(max-width:500px){
+            &_picture{
+                width: 80% !important;
+            }
+        }
+
+        @media screen and(max-width:450px){
+            &_picture{
+                width: 100% !important;
+                height: 380px !important;
+            }
+        }
+
+        &:hover &_picture:before{
+            left: -.4%;
+            top: -.4%;
+        }
+
+        &:hover &_picture::after{
+            background: none;
+        }
+
+        &_picture{
+            width: 40%;
+            height: 400px;
+            position: relative;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: relative;
+            }
+
+            &::after{
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 0%;
+                transition: .3s;
+                top: 0%;
+                background: rgba(0, 174, 255, 0.3);
+            }
+
+            &::before{
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: -5%;
+                transition: .3s;
+                top: -5%;
+                border: 2px solid $app-color;
+            }
+        }
+
+        &_content{
+            width: 57%;
+
+            p{
+                margin: 0;
+                line-height: 1.8;
+                font-size: 17px;
+
+                @media screen and(max-width:1150px){
+                    font-size: 16px;
+                }
+            }
+
+            h4{
+                margin: 10px 0;
+            }
+
+            span{
+                font-weight: 500;
+                color: $app-color;
+                align-items: center;
+                display: flex;
+                margin-top: 15px;
+
+                svg{
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}

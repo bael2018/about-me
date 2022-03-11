@@ -1,0 +1,27 @@
+@import '../variables.scss';
+
+.app_title{
+    text-align: center;
+    margin-bottom: 40px;
+    
+    h1{
+        position: relative;
+        font-size: 40px;
+        color: black;
+        margin: 0;
+
+        &::before{
+            content: '';
+            position: absolute;
+            width: 4%;
+            bottom: -6px;
+            left: 48%;
+            height: 4px;
+            background: $app-color;
+        }
+    }
+
+    p{
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,80 @@
+@import '../variables.scss';
+
+.contacts{
+    margin-top: 100px;
+    padding: 40px 0;
+    background: #000;
+
+    &_wrapper{
+        display: flex;
+        margin: 0 auto;
+        width: 80%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        @media screen and(max-width: 1100px){
+            div:nth-child(1){
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100% !important;
+                margin-bottom: 25px;
+            }
+
+            div:nth-child(2){
+                width: 100% !important;
+                justify-content: center !important;
+                
+                a{
+                    margin: 0 15px !important;
+                    display: block !important;
+                    margin-bottom: 20px !important;
+                } 
+            }
+        }   
+
+        div:nth-child(1){
+            width: 30%;
+            color: white;
+            font-size: 25px;
+            align-items: center;
+            
+            svg{
+                margin-left: 10px;
+                color: $app-color;
+
+                @media screen and(max-width: 1050px){
+                    transform: rotate(90deg);
+                }
+            }
+        }
+
+        div:nth-child(2){
+            width: 70%;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        div{
+            display: flex;
+
+            a{
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                color: white;
+                font-weight: 500;
+                font-size: 18px;
+                transition: .3s;
+                
+                svg{
+                    margin-right: 5px;
+                }
+    
+                &:hover{
+                    color: $app-color;
+                }
+            }
+        }
+    }
+}

@@ -34,7 +34,7 @@ const Banner = () => {
                     <a 
                         rel='noreferrer' 
                         target={'_blank'} 
-                        href='https://drive.google.com/u/0/uc?id=1Hh1gOF0Cx0RixGNrdvhbsfmepXA4LoaS&export=download' 
+                        href='https://drive.google.com/file/d/1wUWVJnw9BWL_dmxs7-f6Duy1MxE07YM0/view?usp=download' 
                         download={'app'}
                     >{locales.get.toUpperCase()} CV</a>
                     <a 

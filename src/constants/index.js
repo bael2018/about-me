@@ -8,25 +8,25 @@ export const skillsData = [
         id: 1,
         title: 'REACT',
         icon: <SiReact/>,
-        percent: '60%',
+        percent: '70%',
     },
     {
         id: 2,
         title: 'REDUX',
         icon: <SiRedux/>,
-        percent: '60%'
+        percent: '75%'
     },
     {
         id: 3,
         title: 'JAVASCRIPT',
         icon: <SiJavascript/>,
-        percent: '65%'
+        percent: '70%'
     },
     {
         id: 4,
         title: 'TYPESCRIPT',
         icon: <SiTypescript/>,
-        percent: '40%'
+        percent: '45%'
     },
     {
         id: 5,
@@ -44,7 +44,7 @@ export const skillsData = [
         id: 7,
         title: 'SASS',
         icon: <DiSass/>,
-        percent: '65%'
+        percent: '70%'
     },
     {
         id: 8,

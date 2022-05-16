@@ -22,9 +22,9 @@ const Contacts = () => {
                         <AiOutlineMail/>
                         osh.kg1819@gmail.com
                     </a>
-                    <a rel='noreferrer' target={'_blank'} href="https://t.me/JSDeveloper2021">
+                    <a rel='noreferrer' target={'_blank'} href="https://t.me/KurmanalievBayel">
                         <RiTelegramLine/>
-                        @JSDeveloper2021
+                        @KurmanalievBayel
                     </a>
                 </div>
             </div>

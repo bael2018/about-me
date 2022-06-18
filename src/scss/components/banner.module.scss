@@ -163,18 +163,24 @@
 
             a{
                 background: $app-color;
+                border: 1px solid $app-color;
                 outline: none;
                 align-items: center;
                 display: flex;
                 text-decoration: none;
                 border-radius: 30px;
+                transition: .3s;
                 color: white;
                 margin: 0 10px;
-                border: none;
                 padding: 8px 20px;
 
                 svg{
                     margin-left: 5px;
+                }
+
+                &:hover{
+                    background-color: white;
+                    color: $app-color;
                 }
             }
         }
